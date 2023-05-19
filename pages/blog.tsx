@@ -33,7 +33,7 @@ const Blog: NextPage = () => {
         }),
       });
       const data = response.json();
-      // console.log(data);
+      console.log(data);
       loadPosts();
       clearValue();
     } catch (error) {}
